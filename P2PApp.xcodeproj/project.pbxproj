@@ -7,25 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2174D7612ACBE06400BC3CC3 /* AnimeEpisodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2174D75F2ACBE06400BC3CC3 /* AnimeEpisodeCell.swift */; };
+		2174D7622ACBE06400BC3CC3 /* AnimeEpisodeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2174D7602ACBE06400BC3CC3 /* AnimeEpisodeCell.xib */; };
+		2174D76D2ACBF35F00BC3CC3 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2174D76C2ACBF35F00BC3CC3 /* SafariServices.framework */; };
+		2174D7812ACC537F00BC3CC3 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2174D7802ACC537F00BC3CC3 /* VideoPlayerViewController.swift */; };
+		2174D7832ACC683200BC3CC3 /* DetailsMangaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2174D7822ACC683200BC3CC3 /* DetailsMangaViewController.swift */; };
+		2174D7872ACC687000BC3CC3 /* MangaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2174D7852ACC687000BC3CC3 /* MangaCollectionViewCell.swift */; };
+		2174D7882ACC687000BC3CC3 /* MangaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2174D7862ACC687000BC3CC3 /* MangaCollectionViewCell.xib */; };
+		2174D78A2ACC80FB00BC3CC3 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2174D7892ACC80FB00BC3CC3 /* ImageViewController.swift */; };
+		2174D78D2ACD212700BC3CC3 /* DownloadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2174D78C2ACD212700BC3CC3 /* DownloadVC.swift */; };
 		219A734C2AC6964D00EB6D84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219A734B2AC6964D00EB6D84 /* AppDelegate.swift */; };
 		219A734E2AC6964D00EB6D84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219A734D2AC6964D00EB6D84 /* SceneDelegate.swift */; };
-		219A73502AC6964D00EB6D84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219A734F2AC6964D00EB6D84 /* ViewController.swift */; };
+		219A73502AC6964D00EB6D84 /* AnimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219A734F2AC6964D00EB6D84 /* AnimeViewController.swift */; };
 		219A73532AC6964D00EB6D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219A73512AC6964D00EB6D84 /* Main.storyboard */; };
 		219A73562AC6964D00EB6D84 /* P2PApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 219A73542AC6964D00EB6D84 /* P2PApp.xcdatamodeld */; };
 		219A73582AC6965000EB6D84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 219A73572AC6965000EB6D84 /* Assets.xcassets */; };
 		219A735B2AC6965000EB6D84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219A73592AC6965000EB6D84 /* LaunchScreen.storyboard */; };
+		219A736D2AC6B97800EB6D84 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219A736C2AC6B97800EB6D84 /* Models.swift */; };
+		219A73702AC6BDD800EB6D84 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219A736F2AC6BDD800EB6D84 /* APICaller.swift */; };
+		219A73732AC6C87000EB6D84 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219A73722AC6C87000EB6D84 /* Constants.swift */; };
+		219A73772AC6D85D00EB6D84 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219A73752AC6D85D00EB6D84 /* HomeCollectionViewCell.swift */; };
+		219A73782AC6D85D00EB6D84 /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 219A73762AC6D85D00EB6D84 /* HomeCollectionViewCell.xib */; };
+		219A737D2AC6F52B00EB6D84 /* MangaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219A737C2AC6F52B00EB6D84 /* MangaViewController.swift */; };
+		219A73802AC707C300EB6D84 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219A737F2AC707C300EB6D84 /* DetailsViewController.swift */; };
+		901CB3C4F9EEB4E5D4FBF68B /* Pods_P2PApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3669EA196F171B894BE9801 /* Pods_P2PApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11575FDA98F0E64843EF9F60 /* Pods-P2PApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P2PApp.debug.xcconfig"; path = "Target Support Files/Pods-P2PApp/Pods-P2PApp.debug.xcconfig"; sourceTree = "<group>"; };
+		2174D75F2ACBE06400BC3CC3 /* AnimeEpisodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeEpisodeCell.swift; sourceTree = "<group>"; };
+		2174D7602ACBE06400BC3CC3 /* AnimeEpisodeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimeEpisodeCell.xib; sourceTree = "<group>"; };
+		2174D7682ACBEDB300BC3CC3 /* P2PApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "P2PApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		2174D76C2ACBF35F00BC3CC3 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		2174D7802ACC537F00BC3CC3 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		2174D7822ACC683200BC3CC3 /* DetailsMangaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsMangaViewController.swift; sourceTree = "<group>"; };
+		2174D7852ACC687000BC3CC3 /* MangaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaCollectionViewCell.swift; sourceTree = "<group>"; };
+		2174D7862ACC687000BC3CC3 /* MangaCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MangaCollectionViewCell.xib; sourceTree = "<group>"; };
+		2174D7892ACC80FB00BC3CC3 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		2174D78C2ACD212700BC3CC3 /* DownloadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadVC.swift; sourceTree = "<group>"; };
 		219A73482AC6964D00EB6D84 /* P2PApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = P2PApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		219A734B2AC6964D00EB6D84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		219A734D2AC6964D00EB6D84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		219A734F2AC6964D00EB6D84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		219A734F2AC6964D00EB6D84 /* AnimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeViewController.swift; sourceTree = "<group>"; };
 		219A73522AC6964D00EB6D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		219A73552AC6964D00EB6D84 /* P2PApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = P2PApp.xcdatamodel; sourceTree = "<group>"; };
 		219A73572AC6965000EB6D84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		219A735A2AC6965000EB6D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		219A735C2AC6965000EB6D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		219A736C2AC6B97800EB6D84 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		219A736F2AC6BDD800EB6D84 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		219A73722AC6C87000EB6D84 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		219A73752AC6D85D00EB6D84 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		219A73762AC6D85D00EB6D84 /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
+		219A737C2AC6F52B00EB6D84 /* MangaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaViewController.swift; sourceTree = "<group>"; };
+		219A737F2AC707C300EB6D84 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		9A0625D3F7EEACF5274448ED /* Pods-P2PApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P2PApp.release.xcconfig"; path = "Target Support Files/Pods-P2PApp/Pods-P2PApp.release.xcconfig"; sourceTree = "<group>"; };
+		F3669EA196F171B894BE9801 /* Pods_P2PApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_P2PApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +70,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2174D76D2ACBF35F00BC3CC3 /* SafariServices.framework in Frameworks */,
+				901CB3C4F9EEB4E5D4FBF68B /* Pods_P2PApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2174D75E2ACBE02D00BC3CC3 /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				2174D75F2ACBE06400BC3CC3 /* AnimeEpisodeCell.swift */,
+				2174D7602ACBE06400BC3CC3 /* AnimeEpisodeCell.xib */,
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
+		2174D7632ACBED5600BC3CC3 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				2174D7682ACBEDB300BC3CC3 /* P2PApp-Bridging-Header.h */,
+				2174D7802ACC537F00BC3CC3 /* VideoPlayerViewController.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		2174D7842ACC684E00BC3CC3 /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				2174D7852ACC687000BC3CC3 /* MangaCollectionViewCell.swift */,
+				2174D7862ACC687000BC3CC3 /* MangaCollectionViewCell.xib */,
+				2174D7892ACC80FB00BC3CC3 /* ImageViewController.swift */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		2174D78B2ACD211900BC3CC3 /* Downloads */ = {
+			isa = PBXGroup;
+			children = (
+				2174D78C2ACD212700BC3CC3 /* DownloadVC.swift */,
+			);
+			path = Downloads;
+			sourceTree = "<group>";
+		};
 		219A733F2AC6964D00EB6D84 = {
 			isa = PBXGroup;
 			children = (
 				219A734A2AC6964D00EB6D84 /* P2PApp */,
 				219A73492AC6964D00EB6D84 /* Products */,
+				8F87D58CC37A0F631F1FFF0C /* Pods */,
+				69EEB683B04BA2F7BB9827BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,9 +135,14 @@
 		219A734A2AC6964D00EB6D84 /* P2PApp */ = {
 			isa = PBXGroup;
 			children = (
+				2174D78B2ACD211900BC3CC3 /* Downloads */,
+				219A737E2AC7079800EB6D84 /* Details */,
+				219A73742AC6D84400EB6D84 /* Home */,
+				219A73712AC6C86700EB6D84 /* Constants */,
+				219A736E2AC6BDCA00EB6D84 /* APICaller */,
+				219A736B2AC6B96F00EB6D84 /* models */,
 				219A734B2AC6964D00EB6D84 /* AppDelegate.swift */,
 				219A734D2AC6964D00EB6D84 /* SceneDelegate.swift */,
-				219A734F2AC6964D00EB6D84 /* ViewController.swift */,
 				219A73512AC6964D00EB6D84 /* Main.storyboard */,
 				219A73572AC6965000EB6D84 /* Assets.xcassets */,
 				219A73592AC6965000EB6D84 /* LaunchScreen.storyboard */,
@@ -70,6 +152,71 @@
 			path = P2PApp;
 			sourceTree = "<group>";
 		};
+		219A736B2AC6B96F00EB6D84 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				219A736C2AC6B97800EB6D84 /* Models.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		219A736E2AC6BDCA00EB6D84 /* APICaller */ = {
+			isa = PBXGroup;
+			children = (
+				219A736F2AC6BDD800EB6D84 /* APICaller.swift */,
+			);
+			path = APICaller;
+			sourceTree = "<group>";
+		};
+		219A73712AC6C86700EB6D84 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				219A73722AC6C87000EB6D84 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		219A73742AC6D84400EB6D84 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				219A734F2AC6964D00EB6D84 /* AnimeViewController.swift */,
+				219A73752AC6D85D00EB6D84 /* HomeCollectionViewCell.swift */,
+				219A73762AC6D85D00EB6D84 /* HomeCollectionViewCell.xib */,
+				219A737C2AC6F52B00EB6D84 /* MangaViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		219A737E2AC7079800EB6D84 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				2174D7842ACC684E00BC3CC3 /* CollectionCell */,
+				2174D7632ACBED5600BC3CC3 /* Player */,
+				2174D75E2ACBE02D00BC3CC3 /* TableCells */,
+				219A737F2AC707C300EB6D84 /* DetailsViewController.swift */,
+				2174D7822ACC683200BC3CC3 /* DetailsMangaViewController.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		69EEB683B04BA2F7BB9827BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2174D76C2ACBF35F00BC3CC3 /* SafariServices.framework */,
+				F3669EA196F171B894BE9801 /* Pods_P2PApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F87D58CC37A0F631F1FFF0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11575FDA98F0E64843EF9F60 /* Pods-P2PApp.debug.xcconfig */,
+				9A0625D3F7EEACF5274448ED /* Pods-P2PApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +224,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 219A735F2AC6965000EB6D84 /* Build configuration list for PBXNativeTarget "P2PApp" */;
 			buildPhases = (
+				32E119A1A4C2606963C4A242 /* [CP] Check Pods Manifest.lock */,
 				219A73442AC6964D00EB6D84 /* Sources */,
 				219A73452AC6964D00EB6D84 /* Frameworks */,
 				219A73462AC6964D00EB6D84 /* Resources */,
+				60B6240E7FC78C40DFA1106D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = P2PApp;
+			packageProductDependencies = (
+			);
 			productName = P2PApp;
 			productReference = 219A73482AC6964D00EB6D84 /* P2PApp.app */;
 			productType = "com.apple.product-type.application";
@@ -102,6 +253,7 @@
 				TargetAttributes = {
 					219A73472AC6964D00EB6D84 = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -114,6 +266,8 @@
 				Base,
 			);
 			mainGroup = 219A733F2AC6964D00EB6D84;
+			packageReferences = (
+			);
 			productRefGroup = 219A73492AC6964D00EB6D84 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,22 +283,79 @@
 			buildActionMask = 2147483647;
 			files = (
 				219A735B2AC6965000EB6D84 /* LaunchScreen.storyboard in Resources */,
+				2174D7882ACC687000BC3CC3 /* MangaCollectionViewCell.xib in Resources */,
 				219A73582AC6965000EB6D84 /* Assets.xcassets in Resources */,
 				219A73532AC6964D00EB6D84 /* Main.storyboard in Resources */,
+				219A73782AC6D85D00EB6D84 /* HomeCollectionViewCell.xib in Resources */,
+				2174D7622ACBE06400BC3CC3 /* AnimeEpisodeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32E119A1A4C2606963C4A242 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-P2PApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60B6240E7FC78C40DFA1106D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-P2PApp/Pods-P2PApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-P2PApp/Pods-P2PApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-P2PApp/Pods-P2PApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		219A73442AC6964D00EB6D84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				219A73502AC6964D00EB6D84 /* ViewController.swift in Sources */,
+				2174D7832ACC683200BC3CC3 /* DetailsMangaViewController.swift in Sources */,
+				219A73502AC6964D00EB6D84 /* AnimeViewController.swift in Sources */,
+				219A737D2AC6F52B00EB6D84 /* MangaViewController.swift in Sources */,
+				219A73702AC6BDD800EB6D84 /* APICaller.swift in Sources */,
 				219A734C2AC6964D00EB6D84 /* AppDelegate.swift in Sources */,
 				219A73562AC6964D00EB6D84 /* P2PApp.xcdatamodeld in Sources */,
+				219A73732AC6C87000EB6D84 /* Constants.swift in Sources */,
+				2174D78A2ACC80FB00BC3CC3 /* ImageViewController.swift in Sources */,
+				2174D7612ACBE06400BC3CC3 /* AnimeEpisodeCell.swift in Sources */,
 				219A734E2AC6964D00EB6D84 /* SceneDelegate.swift in Sources */,
+				2174D7872ACC687000BC3CC3 /* MangaCollectionViewCell.swift in Sources */,
+				219A736D2AC6B97800EB6D84 /* Models.swift in Sources */,
+				2174D78D2ACD212700BC3CC3 /* DownloadVC.swift in Sources */,
+				2174D7812ACC537F00BC3CC3 /* VideoPlayerViewController.swift in Sources */,
+				219A73772AC6D85D00EB6D84 /* HomeCollectionViewCell.swift in Sources */,
+				219A73802AC707C300EB6D84 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,9 +497,11 @@
 		};
 		219A73602AC6965000EB6D84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11575FDA98F0E64843EF9F60 /* Pods-P2PApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R9H7CDB3BF;
@@ -297,8 +510,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +520,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cubastion.app.P2PApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "P2PApp/Details/Player/P2PApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -314,9 +529,11 @@
 		};
 		219A73612AC6965000EB6D84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A0625D3F7EEACF5274448ED /* Pods-P2PApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R9H7CDB3BF;
@@ -325,8 +542,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,6 +552,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cubastion.app.P2PApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "P2PApp/Details/Player/P2PApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
