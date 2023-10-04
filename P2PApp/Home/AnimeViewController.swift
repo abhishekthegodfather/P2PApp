@@ -7,6 +7,7 @@
 
 import UIKit
 import DropDown
+import Fastis
 
 
 class AnimeViewController: UIViewController {
@@ -24,6 +25,7 @@ class AnimeViewController: UIViewController {
     var animeArray : [AnimeTileModel] = []
     var filteredAnimeList: [AnimeTileModel] = []
     var isSearching : Bool = false
+    var isFiltering : Bool = false
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -146,6 +148,8 @@ extension AnimeViewController : UICollectionViewDelegate, UICollectionViewDataSo
             print("Selected item: \(item) at index: \(index)")
             switch index {
             case 0:
+                self.isFiltering = true
+                self.showDatePicker()
                 break
             case 1:
                 break
@@ -155,6 +159,60 @@ extension AnimeViewController : UICollectionViewDelegate, UICollectionViewDataSo
         }
         dropDown.width = 200
         dropDown.show()
+    }
+    
+    
+    func callAPIForAnimeFiltering(fromDate: String, toDate: String){
+        let finalURL = Constants.shared.BASE_URL + Constants.shared.ANIME_ENDPOINT
+        let parameterURl : [[String:Any]] = [
+            [
+                "name" : "start_date",
+                "value" : fromDate
+            ],
+            [
+                "name" : "end_date",
+                "value" : toDate
+            ]
+        ]
+        APIParser.shared.parseDataToDict(controller: self, urlString: finalURL, parameters: parameterURl, bodyParams: nil, requestType: "get") {[weak self] result in
+            guard let self = self else {return}
+            if let resultResponse =  result as? [String: Any] {
+                let resultArray : [AnimeTileModel] = AnimeTileModel().parseResponse(responseDict: resultResponse)
+                self.animeArray.removeAll()
+                self.animeArray = resultArray
+                DispatchQueue.main.async {
+                    self.activityIndicator.stopAnimating()
+                    self.activityIndicator.isHidden = true
+                    self.collectionView.reloadData()
+                }
+            }
+        }
+    }
+    
+    func showDatePicker() {
+        let fastisController = FastisController(mode: .range)
+        fastisController.initialValue = FastisRange(from: Date(), to: Date())
+        fastisController.dismissHandler = { action in
+            switch action {
+            case .done(let resultRange):
+                if (self.isFiltering){
+                    if let fromDate = resultRange?.fromDate.string(format: "yyyy-MM-dd") {
+                        if let toDate = resultRange?.toDate.string(format: "yyyy-MM-dd") {
+//                            self.callAPIForAnimeFiltering(fromDate: fromDate, toDate: toDate)
+//                            DispatchQueue.main.async {
+//                                self.activityIndicator.isHidden = false
+//                                self.activityIndicator.startAnimating()
+//                            }
+                        }
+                    }
+                    
+                }
+                break
+            case .cancel:
+                break
+            }
+        }
+        fastisController.present(above: self)
     }
 }
 

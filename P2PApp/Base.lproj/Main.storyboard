@@ -578,6 +578,9 @@
                                                         <rect key="frame" x="100" y="0.0" width="50" height="34"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" image="ellipsis" catalog="system"/>
+                                                        <connections>
+                                                            <action selector="moreAction:" destination="kVD-yQ-pSO" eventType="touchUpInside" id="4I9-cC-ALX"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -637,6 +640,7 @@
                         <outlet property="collectionView" destination="crf-U5-hfF" id="Rlf-V1-dDf"/>
                         <outlet property="downloadBtn" destination="Avn-2P-UtM" id="0y4-vX-eNB"/>
                         <outlet property="screenName" destination="l3y-5D-QTf" id="aRn-VG-JH8"/>
+                        <outlet property="searchBar" destination="9Hs-9g-S6E" id="9GB-qk-IjV"/>
                         <outlet property="searchBtn" destination="QdH-jX-dED" id="uex-GI-8UJ"/>
                         <outlet property="searchCancel" destination="vYm-cv-xCV" id="WR3-dj-WWN"/>
                         <outlet property="searchView" destination="2te-PG-izC" id="rtb-tp-sr7"/>

@@ -7,7 +7,7 @@
 
 import Foundation
 import UIKit
-
+import DropDown
 
 class MangaViewController: UIViewController {
     
@@ -19,6 +19,8 @@ class MangaViewController: UIViewController {
     @IBOutlet weak var screenName: UILabel!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var downloadBtn: UIButton!
+    @IBOutlet weak var searchBar: UISearchBar!
+    
     
     var mangaArray : [MangaTileModel] = []
 
@@ -33,6 +35,25 @@ class MangaViewController: UIViewController {
     }
     
     
+    @IBAction func moreAction(_ sender: UIButton) {
+        let dropDown = DropDown()
+        dropDown.anchorView = sender
+        dropDown.dataSource = ["Filter Via Date", "Filter Via Genre"]
+        dropDown.selectionAction = {(index: Int, item: String) in
+            print("Selected item: \(item) at index: \(index)")
+            switch index {
+            case 0:
+                break
+            case 1:
+                break
+            default:
+                print("No Filter Option Found!!")
+            }
+        }
+        dropDown.width = 200
+        dropDown.show()
+    }
+        
     @objc func searchBtnAction(_ sender: UIButton){
         self.searchView.isHidden = false
         self.animeLabelView.isHidden = true

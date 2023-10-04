@@ -1,0 +1,6 @@
+framework module Pods_P2PApp {
+  umbrella header "Pods-P2PApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
